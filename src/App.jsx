@@ -1,9 +1,12 @@
 import React from "react";
+import Nav from "./components/Nav";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="bg-black min-h-screen">
-      <h1 className="text-white">App</h1>
+    <div className="bg-banana min-h-screen">
+      <Nav />
+      <Home />
     </div>
   );
 };
